@@ -12,7 +12,7 @@ body {
 .card {
   background-color: white;
   width: 50%;
-  height: 50vh;
+  height: 350px;
 
   position: absolute;
   top: 50%;
@@ -29,7 +29,7 @@ body {
 }
 
 .main-section {
-  width: 50%;
+  width: 350px;
 
   display: flex;
   flex-direction: column;
@@ -89,14 +89,14 @@ body {
 
 .card-price {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 2vw;
   text-align: right;
   margin-bottom: 20%;
   margin-top: 20%;
 }
 
 .card-date-time {
-  width: 200px;
+  padding-left: 50px;
   height: 75px;
   border: 2px solid rgba(0, 0, 0, 0.05);
   border-radius: 5px;
@@ -111,5 +111,5 @@ body {
 
 .card-date {
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 1.25vw;
 }
